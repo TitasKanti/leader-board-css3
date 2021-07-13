@@ -195,7 +195,7 @@ hr{
         margin-right: 0;
     }
     .nav-part2 a{
-        padding-left: 12px;
+        padding-left: 10px;
     }
     .players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
