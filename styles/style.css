@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 /* common styles or utilities */
 body{
     font-family: 'Poppins', sans-serif;
@@ -9,13 +10,14 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #E5E5E5;
 }
 .container{
     background-color: #FFFFFF;
     width: 870px;
     padding: 30px;
     border-radius: 5px;
-    margin-top: 21px;
+    margin-bottom: 28px;
 }
 hr{
     border: 1px solid #D1D1D1;
@@ -93,17 +95,38 @@ hr{
     Width: 252.42px;
     Height: 269.79px;
     grid-column-gap: 24px;
-    
-    
+}
+.course{
+    width: 250px;
+    height: 270px;
+    border:0.5px solid rgba(220, 220, 220, 0.651);
+    border-top: none;
+    border-radius: 10px;
+    padding-left: 10px;
 }
 .course .course-banner img{
     width: 224px;
     height: 104px;  
 }
+.course-title{
+    color: #1E1E1E;
+    font-size: 20px;
+    width
+}
+.course-author{
+    font-size: 14px;
+    color:#ED6B4F;
+
+}
+.course-title, .course-author{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
 .course-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top:-5px;
 }
 .fa-star{
     font-size: 12px;
@@ -117,8 +140,11 @@ hr{
 .course-duration{
     color: #FF4A60;
     background-color: #FFE4E8;
-    width: 95px;
+    width: 90px;
     height:30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 20px;
     border-radius: 15px;
 }
 
